@@ -21,7 +21,7 @@ pipeline {
         /*stage ('Run Jmeter tests') {
             steps {
                 bat 'C:\\Tools\\apache-jmeter-5.4.1\\bin\\jmeter.bat -Jjmeter.save.saveservice.output_format=xml -n -t C:\\Tools\\Project_PrestaShop\\performance\\PrestaShop_LOGIN.jmx, PrestaShop_Add item to cart.jmx -l jmeter_PSreport.jtl'
-                perfReport 'jmeter_report.jtl'
+                perfReport 'jmeter_PSreport.jtl'
             }
         }*/
     }
